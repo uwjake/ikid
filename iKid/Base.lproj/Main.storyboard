@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,7 +16,7 @@
                 <navigationController id="3jj-cz-kFo" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="IT" image="first" id="Jbn-LH-8K4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dWX-0p-mSz">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -32,11 +32,11 @@
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" lineBreakMode="tailTruncation" numberOfLines="50" minimumFontSize="10" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD" userLabel="What’s the best thing about Switzerland?">
-                                <rect key="frame" x="30" y="244" width="354" height="248.33333333333337"/>
+                                <rect key="frame" x="30" y="324" width="354" height="248.33333333333337"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">A big party is being held to honor relational database systems and their impact on modern society. Outside the venue, the host awaits the guests.
 
@@ -50,7 +50,7 @@ Oracle: I have 4 DBA’s in tow. One to install me, one to design the databases,
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xqz-iE-jAV">
-                                <rect key="frame" x="330" y="643" width="54" height="34"/>
+                                <rect key="frame" x="330" y="769" width="54" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Next &gt;"/>
                                 <connections>
@@ -81,11 +81,11 @@ Oracle: I have 4 DBA’s in tow. One to install me, one to design the databases,
             <objects>
                 <viewController id="EeD-Kv-gRU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ce9-xE-9MD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="50" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="EzL-81-O9v" userLabel="What’s the best thing about Switzerland?">
-                                <rect key="frame" x="30" y="272.66666666666669" width="354" height="191"/>
+                                <rect key="frame" x="30" y="352.66666666666669" width="354" height="191.00000000000006"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">A second limo arrives and out steps DB2 followed by 40 people.
 
@@ -99,7 +99,7 @@ A third limo arrives and out steps SQL Server all on his own.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3I-2L-dcq">
-                                <rect key="frame" x="330" y="643" width="54" height="34"/>
+                                <rect key="frame" x="330" y="769" width="54" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Next &gt;"/>
                                 <connections>
@@ -128,11 +128,11 @@ A third limo arrives and out steps SQL Server all on his own.</string>
             <objects>
                 <viewController id="fPZ-6X-Poz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="itS-bT-U4c">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="50" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="jpd-7W-nfp" userLabel="What’s the best thing about Switzerland?">
-                                <rect key="frame" x="30" y="282" width="354" height="172"/>
+                                <rect key="frame" x="30" y="362" width="354" height="172"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">A third limo arrives and out steps SQL Server all on his own.
 
@@ -144,7 +144,7 @@ SQL Server: I didn’t bring anyone because I am easy to install and am basicall
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHg-UC-EOB">
-                                <rect key="frame" x="330" y="643" width="54" height="34"/>
+                                <rect key="frame" x="330" y="769" width="54" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Next &gt;"/>
                                 <connections>
@@ -173,11 +173,11 @@ SQL Server: I didn’t bring anyone because I am easy to install and am basicall
             <objects>
                 <viewController id="nFQ-DE-SBF" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lq2-EY-FFa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="50" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="k0M-7W-aiC" userLabel="What’s the best thing about Switzerland?">
-                                <rect key="frame" x="30" y="284.33333333333331" width="354" height="167.33333333333331"/>
+                                <rect key="frame" x="30" y="364.33333333333331" width="354" height="167.33333333333331"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">20 minutes later, up rushes MySQL, unshaved, hair a mess.
 
@@ -209,7 +209,7 @@ MySQL: Sorry, I thought it was February 31st.</string>
                 <navigationController id="Lpm-yD-ztM" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Dad" id="fra-87-MuI"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mF1-9f-CWh">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -227,7 +227,7 @@ MySQL: Sorry, I thought it was February 31st.</string>
                 <navigationController id="uxr-ph-j2E" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Pun" id="Ken-BG-5yU"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jo9-AT-ysd">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -242,19 +242,20 @@ MySQL: Sorry, I thought it was February 31st.</string>
             <objects>
                 <viewController id="ETY-P8-Jky" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i54-7k-gsc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekk-L3-dwo">
-                                <rect key="frame" x="348" y="657" width="46" height="30"/>
+                                <rect key="frame" x="330" y="769" width="54" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Next &gt;"/>
                                 <connections>
                                     <segue destination="x9f-3E-zq8" kind="show" id="61c-de-QAa"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQI-UZ-mua">
-                                <rect key="frame" x="186" y="358" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQI-UZ-mua">
+                                <rect key="frame" x="30" y="397.33333333333331" width="354" height="101.66666666666669"/>
+                                <string key="text">Two variables are leaving a bar, going home go home for a one night function and when they wake up in the morning, one variable asks puzzled: "You are not the variable I came home with, who are you?"</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -262,8 +263,12 @@ MySQL: Sorry, I thought it was February 31st.</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6Sj-yN-xn7" firstAttribute="trailing" secondItem="ekk-L3-dwo" secondAttribute="trailing" constant="20" id="1DP-90-8YH"/>
-                            <constraint firstItem="6Sj-yN-xn7" firstAttribute="bottom" secondItem="ekk-L3-dwo" secondAttribute="bottom" id="Ffn-HV-Q9n"/>
+                            <constraint firstItem="6Sj-yN-xn7" firstAttribute="trailing" secondItem="ekk-L3-dwo" secondAttribute="trailing" constant="30" id="1DP-90-8YH"/>
+                            <constraint firstItem="6Sj-yN-xn7" firstAttribute="bottom" secondItem="ekk-L3-dwo" secondAttribute="bottom" constant="10" id="Ffn-HV-Q9n"/>
+                            <constraint firstItem="NQI-UZ-mua" firstAttribute="centerY" secondItem="i54-7k-gsc" secondAttribute="centerY" id="ryd-QV-cXz"/>
+                            <constraint firstItem="NQI-UZ-mua" firstAttribute="centerX" secondItem="i54-7k-gsc" secondAttribute="centerX" id="sw7-AU-IOx"/>
+                            <constraint firstItem="NQI-UZ-mua" firstAttribute="leading" secondItem="6Sj-yN-xn7" secondAttribute="leading" constant="30" id="tKw-ca-LhI"/>
+                            <constraint firstItem="6Sj-yN-xn7" firstAttribute="trailing" secondItem="NQI-UZ-mua" secondAttribute="trailing" constant="30" id="yS8-Gl-E9a"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Sj-yN-xn7"/>
                     </view>
@@ -271,16 +276,32 @@ MySQL: Sorry, I thought it was February 31st.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wtw-rb-KdP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1169.5652173913045" y="791.57608695652175"/>
+            <point key="canvasLocation" x="1168.125" y="791.19718309859161"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vlj-2k-qLP">
             <objects>
                 <viewController id="x9f-3E-zq8" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="17V-OE-6ag">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yp5-Fx-Lr5">
+                                <rect key="frame" x="30" y="417.66666666666669" width="354" height="61"/>
+                                <string key="text">The other replies "I'm global, and I am changed somewhere else."
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yp5-Fx-Lr5" firstAttribute="centerX" secondItem="17V-OE-6ag" secondAttribute="centerX" id="02k-ui-dvq"/>
+                            <constraint firstItem="yp5-Fx-Lr5" firstAttribute="leading" secondItem="L7P-iT-YhF" secondAttribute="leading" constant="30" id="EWG-MH-6Gv"/>
+                            <constraint firstItem="yp5-Fx-Lr5" firstAttribute="centerY" secondItem="17V-OE-6ag" secondAttribute="centerY" id="FiT-2o-neZ"/>
+                            <constraint firstItem="L7P-iT-YhF" firstAttribute="trailing" secondItem="yp5-Fx-Lr5" secondAttribute="trailing" constant="30" id="N1m-j2-ZJ3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="L7P-iT-YhF"/>
                     </view>
                 </viewController>
@@ -293,18 +314,19 @@ MySQL: Sorry, I thought it was February 31st.</string>
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="What’s the best thing about Switzerland? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="27.333333333333343" y="356" width="359.33333333333326" height="24"/>
+                                <rect key="frame" x="30" y="424" width="354" height="48"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0k-Nd-Nu6">
-                                <rect key="frame" x="348" y="657" width="46" height="30"/>
+                                <rect key="frame" x="330" y="769" width="54" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Next &gt;"/>
                                 <connections>
                                     <segue destination="VZU-J1-U1h" kind="show" id="yCo-yU-pou"/>
@@ -313,10 +335,12 @@ MySQL: Sorry, I thought it was February 31st.</string>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="G0k-Nd-Nu6" secondAttribute="bottom" id="K8I-dw-srz"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="zEq-FU-wV5" secondAttribute="trailing" constant="30" id="3pS-go-fbi"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="G0k-Nd-Nu6" secondAttribute="bottom" constant="10" id="K8I-dw-srz"/>
                             <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
-                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="G0k-Nd-Nu6" secondAttribute="trailing" constant="20" id="xJd-Uw-Avb"/>
+                            <constraint firstItem="zEq-FU-wV5" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="30" id="tQy-gP-B7v"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="G0k-Nd-Nu6" secondAttribute="trailing" constant="30" id="xJd-Uw-Avb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
@@ -332,11 +356,11 @@ MySQL: Sorry, I thought it was February 31st.</string>
             <objects>
                 <viewController id="VZU-J1-U1h" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wmf-uF-7l7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I don’t know, but their flag is a big plus." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYP-B3-NIR">
-                                <rect key="frame" x="40" y="356" width="334" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I don’t know, but their flag is a big plus." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYP-B3-NIR">
+                                <rect key="frame" x="30" y="436" width="354" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -344,10 +368,10 @@ MySQL: Sorry, I thought it was February 31st.</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="KDo-G5-hzu" firstAttribute="bottom" secondItem="SYP-B3-NIR" secondAttribute="bottom" constant="307" id="MHf-ir-lcV"/>
-                            <constraint firstItem="KDo-G5-hzu" firstAttribute="trailing" secondItem="SYP-B3-NIR" secondAttribute="trailing" constant="40" id="e9B-cm-aQu"/>
-                            <constraint firstItem="SYP-B3-NIR" firstAttribute="top" secondItem="KDo-G5-hzu" secondAttribute="top" constant="292" id="uMD-bm-oLz"/>
-                            <constraint firstItem="SYP-B3-NIR" firstAttribute="leading" secondItem="KDo-G5-hzu" secondAttribute="leading" constant="40" id="wEt-IC-TdW"/>
+                            <constraint firstItem="SYP-B3-NIR" firstAttribute="leading" secondItem="KDo-G5-hzu" secondAttribute="leading" constant="30" id="3SC-7P-z6E"/>
+                            <constraint firstItem="SYP-B3-NIR" firstAttribute="centerY" secondItem="wmf-uF-7l7" secondAttribute="centerY" id="E8r-0X-K6u"/>
+                            <constraint firstItem="KDo-G5-hzu" firstAttribute="trailing" secondItem="SYP-B3-NIR" secondAttribute="trailing" constant="30" id="GRd-oR-pze"/>
+                            <constraint firstItem="SYP-B3-NIR" firstAttribute="centerX" secondItem="wmf-uF-7l7" secondAttribute="centerX" id="XY5-fn-dOG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KDo-G5-hzu"/>
                     </view>
