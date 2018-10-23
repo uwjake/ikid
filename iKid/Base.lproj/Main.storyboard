@@ -10,11 +10,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--IT-->
         <scene sceneID="gsB-2q-xAc">
             <objects>
                 <navigationController id="3jj-cz-kFo" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Jbn-LH-8K4"/>
+                    <tabBarItem key="tabBarItem" title="IT" image="first" id="Jbn-LH-8K4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dWX-0p-mSz">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -27,7 +27,7 @@
             </objects>
             <point key="canvasLocation" x="526" y="-677"/>
         </scene>
-        <!--Tab1-->
+        <!--IT-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,24 +35,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="What’s the best thing about Switzerland? " textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD" userLabel="What’s the best thing about Switzerland?">
-                                <rect key="frame" x="8" y="356" width="398" height="24"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" lineBreakMode="tailTruncation" numberOfLines="50" minimumFontSize="10" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD" userLabel="What’s the best thing about Switzerland?">
+                                <rect key="frame" x="30" y="244" width="354" height="248.33333333333337"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <string key="text">A big party is being held to honor relational database systems and their impact on modern society. Outside the venue, the host awaits the guests.
+
+The first limousine arrives and out steps Oracle followed by 4 people.
+
+Host: Who have you brought along?
+
+Oracle: I have 4 DBA’s in tow. One to install me, one to design the databases, one to administer me, and the other to justify the cost.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xqz-iE-jAV">
+                                <rect key="frame" x="330" y="643" width="54" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Next &gt;"/>
+                                <connections>
+                                    <segue destination="EeD-Kv-gRU" kind="show" id="KpQ-FV-Qmf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="KQZ-1w-vlD" secondAttribute="trailing" constant="8" id="V2h-DW-Tdv"/>
-                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="8" id="ees-5t-Idj"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="Xqz-iE-jAV" secondAttribute="trailing" constant="30" id="7S6-Bf-TTG"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="KQZ-1w-vlD" secondAttribute="trailing" constant="30" id="V2h-DW-Tdv"/>
+                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="30" id="ees-5t-Idj"/>
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="Xqz-iE-jAV" secondAttribute="bottom" constant="10" id="ySL-bZ-mCD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tab1" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="IT" image="first" id="acW-dT-cKf"/>
                     <navigationItem key="navigationItem" id="zEh-ld-6A9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
@@ -66,13 +83,125 @@
                     <view key="view" contentMode="scaleToFill" id="ce9-xE-9MD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="50" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="EzL-81-O9v" userLabel="What’s the best thing about Switzerland?">
+                                <rect key="frame" x="30" y="272.66666666666669" width="354" height="191"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">A second limo arrives and out steps DB2 followed by 40 people.
+
+Host: Who have you bought along?
+
+DB2: I have 2 DBA’s, 2 hardware specialists, and 36 consultants.
+
+A third limo arrives and out steps SQL Server all on his own.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3I-2L-dcq">
+                                <rect key="frame" x="330" y="643" width="54" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Next &gt;"/>
+                                <connections>
+                                    <segue destination="fPZ-6X-Poz" kind="show" id="cmC-jh-6Wb"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JBm-9j-8kN" firstAttribute="trailing" secondItem="EzL-81-O9v" secondAttribute="trailing" constant="30" id="3uo-Fa-EWt"/>
+                            <constraint firstItem="EzL-81-O9v" firstAttribute="centerX" secondItem="ce9-xE-9MD" secondAttribute="centerX" id="8GE-vM-Od7"/>
+                            <constraint firstItem="EzL-81-O9v" firstAttribute="centerY" secondItem="ce9-xE-9MD" secondAttribute="centerY" id="MR5-vU-FYq"/>
+                            <constraint firstItem="JBm-9j-8kN" firstAttribute="bottom" secondItem="d3I-2L-dcq" secondAttribute="bottom" constant="10" id="aaQ-n1-pQY"/>
+                            <constraint firstItem="JBm-9j-8kN" firstAttribute="trailing" secondItem="d3I-2L-dcq" secondAttribute="trailing" constant="30" id="b6i-Ps-Crg"/>
+                            <constraint firstItem="EzL-81-O9v" firstAttribute="leading" secondItem="JBm-9j-8kN" secondAttribute="leading" constant="30" id="qBK-OK-zdh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="JBm-9j-8kN"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xrY-KE-6LO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2065" y="-657"/>
+            <point key="canvasLocation" x="2102.898550724638" y="-677.44565217391312"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VDb-BD-QuU">
+            <objects>
+                <viewController id="fPZ-6X-Poz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="itS-bT-U4c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="50" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="jpd-7W-nfp" userLabel="What’s the best thing about Switzerland?">
+                                <rect key="frame" x="30" y="282" width="354" height="172"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">A third limo arrives and out steps SQL Server all on his own.
+
+Host: Why haven’t you brought anyone?
+
+SQL Server: I didn’t bring anyone because I am easy to install and am basically self managing. But I did bring the #sqlhelp Twitter hashtag for when the excrement hits the fan.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHg-UC-EOB">
+                                <rect key="frame" x="330" y="643" width="54" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Next &gt;"/>
+                                <connections>
+                                    <segue destination="nFQ-DE-SBF" kind="show" id="FZU-Ni-PEg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jpd-7W-nfp" firstAttribute="centerY" secondItem="itS-bT-U4c" secondAttribute="centerY" id="9NE-xl-aiZ"/>
+                            <constraint firstItem="qYk-f9-JS4" firstAttribute="trailing" secondItem="WHg-UC-EOB" secondAttribute="trailing" constant="30" id="UY0-ct-mwF"/>
+                            <constraint firstItem="qYk-f9-JS4" firstAttribute="trailing" secondItem="jpd-7W-nfp" secondAttribute="trailing" constant="30" id="Xxj-hG-cAN"/>
+                            <constraint firstItem="jpd-7W-nfp" firstAttribute="leading" secondItem="qYk-f9-JS4" secondAttribute="leading" constant="30" id="gi7-NZ-NyY"/>
+                            <constraint firstItem="qYk-f9-JS4" firstAttribute="bottom" secondItem="WHg-UC-EOB" secondAttribute="bottom" constant="10" id="p70-iM-LYu"/>
+                            <constraint firstItem="jpd-7W-nfp" firstAttribute="centerX" secondItem="itS-bT-U4c" secondAttribute="centerX" id="qTB-MR-Wcq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qYk-f9-JS4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7aT-h9-3sB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2780" y="-677"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3xu-V8-tBF">
+            <objects>
+                <viewController id="nFQ-DE-SBF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lq2-EY-FFa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="50" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="k0M-7W-aiC" userLabel="What’s the best thing about Switzerland?">
+                                <rect key="frame" x="30" y="284.33333333333331" width="354" height="167.33333333333331"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">20 minutes later, up rushes MySQL, unshaved, hair a mess.
+
+Host: Where have you been MySQL?
+
+MySQL: Sorry, I thought it was February 31st.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="k0M-7W-aiC" firstAttribute="centerX" secondItem="Lq2-EY-FFa" secondAttribute="centerX" id="58Y-aQ-F91"/>
+                            <constraint firstItem="k0M-7W-aiC" firstAttribute="leading" secondItem="t77-ad-Afk" secondAttribute="leading" constant="30" id="7Ou-8v-srQ"/>
+                            <constraint firstItem="t77-ad-Afk" firstAttribute="trailing" secondItem="k0M-7W-aiC" secondAttribute="trailing" constant="30" id="p2M-gO-dpo"/>
+                            <constraint firstItem="k0M-7W-aiC" firstAttribute="centerY" secondItem="Lq2-EY-FFa" secondAttribute="centerY" id="x3t-GG-QQs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="t77-ad-Afk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lMM-dX-hfg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3471" y="-677"/>
         </scene>
         <!--Dad-->
         <scene sceneID="S4O-el-HiP">
@@ -91,6 +220,74 @@
             </objects>
             <point key="canvasLocation" x="183" y="95"/>
         </scene>
+        <!--Pun-->
+        <scene sceneID="ePk-GW-ejG">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zo6-xm-AzW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="uxr-ph-j2E" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Pun" id="Ken-BG-5yU"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jo9-AT-ysd">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ETY-P8-Jky" kind="relationship" relationship="rootViewController" id="vZr-Xq-WKw"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="159" y="792"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ja1-9Z-ASI">
+            <objects>
+                <viewController id="ETY-P8-Jky" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i54-7k-gsc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekk-L3-dwo">
+                                <rect key="frame" x="348" y="657" width="46" height="30"/>
+                                <state key="normal" title="Next &gt;"/>
+                                <connections>
+                                    <segue destination="x9f-3E-zq8" kind="show" id="61c-de-QAa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQI-UZ-mua">
+                                <rect key="frame" x="186" y="358" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Sj-yN-xn7" firstAttribute="trailing" secondItem="ekk-L3-dwo" secondAttribute="trailing" constant="20" id="1DP-90-8YH"/>
+                            <constraint firstItem="6Sj-yN-xn7" firstAttribute="bottom" secondItem="ekk-L3-dwo" secondAttribute="bottom" id="Ffn-HV-Q9n"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Sj-yN-xn7"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rhr-f6-Tll"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wtw-rb-KdP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1169.5652173913045" y="791.57608695652175"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vlj-2k-qLP">
+            <objects>
+                <viewController id="x9f-3E-zq8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="17V-OE-6ag">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="L7P-iT-YhF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fb4-kk-fr5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2154" y="797"/>
+        </scene>
         <!--Dad-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
@@ -106,10 +303,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0k-Nd-Nu6">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0k-Nd-Nu6">
                                 <rect key="frame" x="348" y="657" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Next &gt;"/>
                                 <connections>
                                     <segue destination="VZU-J1-U1h" kind="show" id="yCo-yU-pou"/>
                                 </connections>
@@ -117,8 +313,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="G0k-Nd-Nu6" secondAttribute="bottom" id="K8I-dw-srz"/>
                             <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="G0k-Nd-Nu6" secondAttribute="trailing" constant="20" id="xJd-Uw-Avb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
@@ -137,15 +335,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I don’t know, but their flag is a big plus." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYP-B3-NIR">
-                                <rect key="frame" x="75" y="379" width="298" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I don’t know, but their flag is a big plus." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYP-B3-NIR">
+                                <rect key="frame" x="40" y="356" width="334" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KDo-G5-hzu" firstAttribute="bottom" secondItem="SYP-B3-NIR" secondAttribute="bottom" constant="307" id="MHf-ir-lcV"/>
+                            <constraint firstItem="KDo-G5-hzu" firstAttribute="trailing" secondItem="SYP-B3-NIR" secondAttribute="trailing" constant="40" id="e9B-cm-aQu"/>
+                            <constraint firstItem="SYP-B3-NIR" firstAttribute="top" secondItem="KDo-G5-hzu" secondAttribute="top" constant="292" id="uMD-bm-oLz"/>
+                            <constraint firstItem="SYP-B3-NIR" firstAttribute="leading" secondItem="KDo-G5-hzu" secondAttribute="leading" constant="40" id="wEt-IC-TdW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="KDo-G5-hzu"/>
                     </view>
                 </viewController>
@@ -165,6 +368,7 @@
                     <connections>
                         <segue destination="3jj-cz-kFo" kind="relationship" relationship="viewControllers" id="uKI-xi-Qau"/>
                         <segue destination="Lpm-yD-ztM" kind="relationship" relationship="viewControllers" id="CBx-s0-jcy"/>
+                        <segue destination="uxr-ph-j2E" kind="relationship" relationship="viewControllers" id="F4z-lX-JLm"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
