@@ -85,15 +85,13 @@ Oracle: I have 4 DBA’s in tow. One to install me, one to design the databases,
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="50" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="EzL-81-O9v" userLabel="What’s the best thing about Switzerland?">
-                                <rect key="frame" x="30" y="272.66666666666669" width="354" height="191"/>
+                                <rect key="frame" x="30" y="301.33333333333331" width="354" height="133.66666666666669"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">A second limo arrives and out steps DB2 followed by 40 people.
 
 Host: Who have you bought along?
 
-DB2: I have 2 DBA’s, 2 hardware specialists, and 36 consultants.
-
-A third limo arrives and out steps SQL Server all on his own.</string>
+DB2: I have 2 DBA’s, 2 hardware specialists, and 36 consultants.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
