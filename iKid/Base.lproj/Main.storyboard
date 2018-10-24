@@ -253,7 +253,7 @@ MySQL: Sorry, I thought it was February 31st.</string>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQI-UZ-mua">
                                 <rect key="frame" x="30" y="397.5" width="354" height="101.5"/>
-                                <string key="text">Two variables are leaving a bar, going home go home for a one night function and when they wake up in the morning, one variable asks puzzled: "You are not the variable I came home with, who are you?"</string>
+                                <string key="text">Two variables are leaving a bar, going home for a one night function and when they wake up in the morning, one variable asks puzzled: "You are not the variable I came home with, who are you?"</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
